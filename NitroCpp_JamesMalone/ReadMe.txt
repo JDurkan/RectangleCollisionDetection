@@ -2,39 +2,23 @@
     CONSOLE APPLICATION : NitroCpp_JamesMalone Project Overview
 ========================================================================
 
-AppWizard has created this NitroCpp_JamesMalone application for you.
+Build this program in Visual Studio 2015. A .exe file can be found in the Debug folder.
+Valid command is NitroCpp_JamesMalone.exe "<filename>".
 
-This file contains a summary of what you will find in each of the files that
-make up your NitroCpp_JamesMalone application.
+Sample output:
+##############################################
+Input:
+        1: Rectangle at (100,100), w=250, h=80
+        2: Rectangle at (120,200), w=250, h=150
+        3: Rectangle at (140,160), w=250, h=100
+        4: Rectangle at (160,140), w=350, h=190
 
-
-NitroCpp_JamesMalone.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-NitroCpp_JamesMalone.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
-
-NitroCpp_JamesMalone.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named NitroCpp_JamesMalone.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+Intersections:
+        Between rectangle 1 and 3 at (140,160), w=210, h=20
+        Between rectangle 1 and 4 at (160,140), w=190, h=40
+        Between rectangle 2 and 3 at (140,200), w=230, h=60
+        Between rectangle 2 and 4 at (160,200), w=210, h=130
+        Between rectangle 3 and 4 at (160,160), w=230, h=100
+        Between rectangle 1 and 3,4 at (160,160), w=190, h=20
+        Between rectangle 2 and 3,4 at (160,200), w=210, h=60
+##############################################
